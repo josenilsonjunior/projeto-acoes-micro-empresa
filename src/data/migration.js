@@ -1,7 +1,4 @@
-import Database from './databs.js';
 
-async function up() {
-  const db = await Database.connect();
 
   // Tabela de empresas
   const empresasSql = `
